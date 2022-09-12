@@ -1,4 +1,7 @@
+// Components
+import StartScreen from './components/StartScreen'
 
+// CSS
 import './App.css'
 
 function App() {
@@ -6,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Secret Word</h1>
+      <StartScreen />
        
     </div>
   )
